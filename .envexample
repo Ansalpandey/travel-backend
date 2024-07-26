@@ -1,0 +1,2 @@
+MONGO_DB_URL=your_mongo_db_url
+PORT=your_desired_port

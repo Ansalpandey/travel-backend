@@ -1,0 +1,16 @@
+org: personalproject
+app: travel-backend
+service: travel-backend
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: ap-south-1
+  stage: dev
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi: '*'
